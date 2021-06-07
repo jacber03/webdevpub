@@ -1,0 +1,398 @@
+h2 {
+    background-color: rgb(74, 206, 250);
+
+    height:70px;
+    color: white;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    background-image: url("https://www.ufc.se/wp-content/uploads/2020/04/ufcakahemsida.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#headtxt{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+
+}
+
+#ufclogo{
+
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    display:block;
+    width: 70%;
+    height: 100%;
+
+
+}
+#revealButton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    font-size: 20px;
+    border-radius: 300px;
+    background-color: rgb(74, 206, 250);
+    color: white;
+    padding: 15px;
+}
+#ufcFakta{
+    width: 68%;
+    padding: 15px;
+    margin-top: 30px;
+    opacity: 0;
+    background-color: rgb(74, 206, 250);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+#hemText{
+  background-color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0;
+  border-radius: 7px;
+  padding: 5px;
+}
+#truppText{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border: none;
+    height: 35px;
+    font-size: 1vw;
+    background-color: white;
+    display: block;
+    text-align: left;
+    border-radius: 1px;
+
+}
+#truppText:hover{
+    background-color:lightgray;
+}
+#trupp{
+
+    background-color: white;
+    margin: 0 auto;
+    width: 15%;
+    background-color: rgb(74, 206, 250);
+    padding: 15px;
+    border-radius: 7px;
+    margin-left: 15%;
+
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#tränare{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#tränare:hover{
+    background-color:lightgray;
+}
+#commonFont{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+.info{
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 60px;
+    padding-left: 4%;
+}
+
+#infotext{
+    position: absolute;
+    width: 35%;
+    height: 250px;
+    margin-left: 20%;
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;  
+    background-color: rgb(74, 206, 250);
+    border-radius: 7px;
+
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%; 
+    grid-auto-rows: 4%;
+    background-color: rgb(74, 206, 250);
+    padding: 15px;
+    border-radius: 7px;
+    width: 45%;
+    height: 900px;
+    margin-left: 15%;
+    margin-right: auto;
+
+
+  } 
+  .grid-item {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1vw;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  #shopDiv{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(74, 206, 250);
+    padding: 15px;
+    border-radius: 7px;
+  }
+
+  #shopText{
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    width: 55%;
+    height: 40px;
+    text-align: center;
+    
+  }
+
+  .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(4, [col] 24.3% ) ;
+      grid-template-rows: repeat(2, [row] auto  );
+      background-color: rgb(74, 206, 250);
+      color: white;
+      padding: 15px;
+      border-radius: 7px;
+      margin-left: 15%;
+      margin-right: 15%
+    }
+  
+    .box {
+      background-color: white;
+      color: black;
+      border-radius: 7px;
+      padding: 20px;
+      font-size: 150%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .box .box {
+      background-color: white;
+      color: black;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 2vw;
+    }
+  
+    .a {
+      grid-column: col / span 2;
+      grid-row: row;
+    }
+  
+    .b {
+      grid-column: col 3 / span 2;
+      grid-row: row;
+    }
+  
+    .c {
+      grid-column: col / span 2;
+      grid-row: row 2;
+
+    }
+  
+    .d{
+      grid-column: col 3 / span 2;
+      grid-row: row 2;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 50% 50%;
+    }
+  
+    .e {
+      grid-column: 1 / 3;
+      grid-row: 1;
+    }
+  
+    .f {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .g {
+      grid-column: 2;
+      grid-row: 2;
+    }
+    #shirtRectangle{
+        background-color: blue;
+        height: 300px;
+        width:200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: white;
+
+
+    }
+    #diamond1{
+        background:blue;
+        height: 100px;
+        text-align: center;
+        transform:rotate(45deg);
+        width:80px;
+        margin-left: -48px;
+        position: absolute;
+        margin-top: 14px;
+    }
+
+    #diamond2{
+      background:blue;
+      height: 80px;
+      text-align: center;
+      transform:rotate(45deg);
+      width:100px;
+      position: absolute;
+      margin-left: 157px;
+      margin-top: 25px;
+    }
+    #shirtName{
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      background-color:none;
+      text-align: center;
+      width: 200px;
+      font-size: 30px;
+    }
+  
+    #shirtNum{
+      font-size: 140px;
+      position: absolute;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color:none;
+      text-align: center;
+      width: 200px;
+    }
+    .sizeButton{
+      width: 15%;
+      height: 60px;
+      border-radius: 7px;
+      background-color: whitesmoke;
+      font-size: 2vw;
+      margin-top: 0px;
+      margin-left: 5%;
+    }
+    .sizeButton:hover{
+
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
+    }
+    #userNum{
+      height: 25px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 7px;
+      width: 100%;
+
+    }
+    #userName{
+      height: 25px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 7px;
+      width: 100%
+
+    }
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+        .wrapper {
+      display: block;
+      grid-gap: 10px;
+      grid-template-columns: repeat(4, [col] 24.3% ) ;
+      grid-template-rows: repeat(2, [row] auto);
+      background-color: rgb(74, 206, 250);
+      color: white;
+      padding: 15px;
+      border-radius: 7px;
+      margin-left: 15%;
+      margin-right: 15%
+    }
+  
+    .box {
+      background-color: white;
+      color: black;
+      border-radius: 0px;
+      padding: 20px;
+      font-size: 150%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .box .box {
+      background-color: white;
+      color: black;
+    }
+  
+    .a {
+      grid-column: col / span 2;
+      grid-row: row;
+    }
+  
+    .b {
+      grid-column: col 3 / span 2;
+      grid-row: row;
+    }
+  
+    .c {
+      grid-column: col / span 2;
+      grid-row: row 2;
+
+    }
+  
+    .d{
+      grid-column: col 3 / span 2;
+      grid-row: row 2;
+      display: block;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .e {
+      grid-column: 1 / 3;
+      grid-row: 1;
+    }
+  
+    .f {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .g {
+      grid-column: 2;
+      grid-row: 2;
+    }
+      }

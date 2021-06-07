@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Title</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    </link>
+    <script src="js/base.js"></script>
 </head>
+
 <body>
-<div>
-<p>Body</p>
-</div>
 
-<div>
-<p>Body</p>
-</div>
 
-<div>
-<p>Body</p>
-</div>
 
-<div>
-<p>Body</p>
-</div>
+
+    <div id="hem">
+
+        <img src="https://www.footballgroundmap.com/data/headers/Umea%20FC%20header.jpg" id="ufclogo" class="centered" alt="Bild på Umeå Energi Arena"></img>
+        <h2><p id="headtxt" class="centered">Umeå FC Div.2</p></h2>
+        <div id="navbar">
+
+        </div>
+
+
+        <button type="button" onclick="fadeIn()" id="revealButton">Klicka här för att läsa lite om klubben!</button>
+        <div id="ufcFakta">
+            <div id="hemText">Umeå FC<br><br>Umeå FC (UFC) är en fotbollsklubb i Umeå, bildad den 20 november 1987 genom en sammanslagning av fotbollssektionerna i klubbarna Tegs SK och Sandåkerns SK.
+             UFC spelar för närvarande i div 1 norra och har Umeå Energi Arena som hemmaarena.<br><br>Historia:<br><br>Klubben debuterade i seriespel säsongen 1988 i Division II (dåtidens tredjedivision), 
+             och sedermera efter en femårig sejour i andradivisionen spelade Umeå FC sin hittills enda säsong i Allsvenskan 1996 och åkte ur efter kvalspel mot Ljungskile SK. 
+             De mest kända spelarna som spelat för Umeå är Jesper Blomqvist och Mikael Lustig. Meste målskytt genom tiderna är Steve Galloway, som kom till klubben från Djurgårdens IF 1990.
+             <br><br><a href="https://sv.wikipedia.org/wiki/Ume%C3%A5_FC">Wikipedia</a>
+            </div>
+        </div>
+
+    
+
+        
+    </div>
+
+
+    <script>
+        $(function () {
+            $("#navbar").load("navbar.html");
+        });
+
+    </script>
 
 </body>
+
 </html>

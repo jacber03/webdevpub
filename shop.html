@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    </link>
+    <script src="js/base.js"></script>
+</head>
+
+<body>
+
+
+
+
+    <div id="hem">
+
+        <img src="https://www.footballgroundmap.com/data/headers/Umea%20FC%20header.jpg" id="ufclogo" class="centered"></img>
+        <h2><p id="headtxt" class="centered">Umeå FC Div.2</p></h2>
+        <div id="navbar">
+
+        </div>
+
+        
+    </div>
+
+
+    <div class="wrapper">
+        <div class="box a">Designa din egna Umeå FC tröja</div>
+        <div class="box b">Välj storlek, nummer och namn:</div>
+        <div class="box c">
+            <div id="shirtRectangle">
+                <div id="diamond1"></div>
+                <div id="diamond2"></div>  
+                <p id="shirtName">NAMN</p>
+                <p id="shirtNum">00</p>
+            </div>
+
+        </div>
+        <div class="box d">
+            <div class="box e">
+                <p>Storlek:</p>
+                <button class="sizeButton" type="button" id="sizeButtonS" onclick="sizeButtonS()">S</button>
+                <button class="sizeButton" id="sizeButtonM" onclick="sizeButtonM()">M</button>
+                <button class="sizeButton" id="sizeButtonL" onclick="sizeButtonL()">L</button>
+                <button class="sizeButton" id="sizeButtonXL" onclick="sizeButtonXL()">XL</button>
+            </div>
+            <div class="box f">
+                <form onsubmit="return false">
+                    <label for="fname">Namn:</label><br>
+                    <input type="text" id="userName" onchange="shirt()" maxlength="11"><br>
+                  </form>
+            </div>
+            <div class="box g">
+                <form onsubmit="return false">
+                    <label for="fname">Nummer:</label><br>
+                    <input type="text" id="userNum" onchange="shirt()" maxlength="2"><br>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        $(function () {
+            $("#navbar").load("navbar.html");
+        });
+        
+    </script>
+
+
+</body>
+
+</html>
